@@ -1,0 +1,21 @@
+{
+  "name": "guljeeru",
+  "version": "1.0.0",
+  "description": "Simple static page boilerplate. Uses Gulp, Jeet, Rupture & jQuery",
+  "main": "gulpfile.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedovato/guljeeru"
+  },
+  "author": "Andrei Vedovato",
+  "license": "ISC",
+  "homepage": "https://github.com/vedovato/guljeeru#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-stylus": "^2.5.0",
+    "jeet": "^6.1.1",
+    "rupture": "^0.6.1"
+  }
+}
