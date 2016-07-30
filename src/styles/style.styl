@@ -1,15 +1,21 @@
 @import 'jeet'
-// edit()
+edit()
 
 $site-width      = 1100px
 $line-height     = 1.4em
-$font-size       = 14px
+$padding-default = 180px
+$box-radius-min  = 10px
+$box-radius-max  = 80px
+
+$font-family     = Arial
+$font-h1         = 26px
+$font-text       = 14px
 
 $primary-color   = #01673a // Green
 $secondary-color = #ffd200 // Yellow
 $another-color   = #af9840 // Golden
 $text-color      = #393939 // Grey
-$light-color     = #fff // White
+$light-color     = #ffffff // White
 
 
 
@@ -23,13 +29,67 @@ $light-color     = #fff // White
 
 
 body
-  background: $primary-color
   color: $light-color
   font-family: 'Roboto', Arial, sans-serif
   font-size: $font-size
 
 
+.wrapper
+  center($site-width)
 
 
-// Sample Separator
+
+
+// Helpers
 // ----------------------------------------
+.align-center
+  text-align: center
+
+
+.align-right
+  text-align: right
+
+
+.uppercase
+  text-transform: uppercase
+
+
+.strong
+  font-weight: 700
+
+
+
+
+// Font settings
+// ----------------------------------------
+.heading-h1
+  font-size: $font-h1
+
+
+.primary-color
+  color: $primary-color
+
+
+.secondary-color
+  color: $secondary-color
+
+
+.light-color
+  color: $light-color
+
+
+body, html
+  font-size: $font-text
+
+
+h1, h2, h3, h4, h5, h6
+  font-weight: 300
+  line-height: 1.4em
+
+
+p
+  line-height: 1.6em
+
+
+b, strong
+  font-weight: 700
